@@ -8,6 +8,7 @@
 
 ## Disk loader (disk holder + spatula)
 - in order to prevent the holder from moving, the metal axis and disk holder should be made altogether
+- disk holder needs to have at least 1~2 cm distance with FLUX Delta, or the toolhead will hit the holder while printing larger items
 - the starting point of the spatula should be on top of the supporting platform
 - the weight of the disk bends the spatula; the whole operation will be more precise and fluent if the spatula is built with stronger material
 
