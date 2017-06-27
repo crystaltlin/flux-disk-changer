@@ -13,7 +13,7 @@ def statusComplete(request):
     statusID = request.GET.__getitem__("st_id")
     if statusID == '64':
         print('Print Complete')
-        os.system("python3 /home/pi/automation.py")
+        os.system("python3 /home/pi/machine_control/automation.py")
         return HttpResponse('Print Complete')
     else: 
         return HttpResponse(statusID)
@@ -22,17 +22,17 @@ def control(request):
     return render(request, 'control.html', locals())
 
 def loadDisk(request):
-    os.system("python3 /home/pi/loadDisk.py")
+    os.system("python3 /home/pi/machine_control/loadDisk.py")
     return render(request, 'control.html', locals())
 
 def dumpDisk(request):
-    os.system("python3 /home/pi/dumpDisk.py")
+    os.system("python3 /home/pi/machine_control/dumpDisk.py")
     return render(request, 'control.html', locals())
 
 def unloadDisk(request):
-    os.system("python3 /home/pi/unloadDisk.py")
+    os.system("python3 /home/pi/machine_control/unloadDisk.py")
     return render(request, 'control.html', locals())
 
 def all(request):
-    os.system("python3 /home/pi/automation.py")
+    os.system("python3 /home/pi/machine_control/automation.py")
     return render(request, 'control.html', locals())
