@@ -14,6 +14,10 @@ Flux disk changer is designed to enable FLUX Delta to print multiple objects wit
   File >> Preferences >> Machine >> choose your machine from machin list >> status callback URL
 - set up hardware
 
-  disk changer will operate after printing is completed; or control manually through http://pi's_IP:portnum/control
+  disk changer will operate after printing is complete; or control manually through http://pi's_IP:portnum/control
+
+## File notes
+- FluxAutomation is the django project created in the pi server.
+- machine_control are the py files that will be executed when pi server receives a request reporting print complete. The py file sends command to arduino.
 
 Note: Flux Studio cannot give printing commands of multiple objects yet. 
