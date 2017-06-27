@@ -11,7 +11,7 @@ Flux disk changer is designed to enable FLUX Delta to print multiple objects wit
 - set up the django server inside your pi (see FluxAutomation) and run the server
 - set the IP of your FLUX Delta's status callback url to your pi server's IP through Flux Studio (firmware 1.6.74+ required).
   (http://pi's_IP:portnum/flux-status-changed?st_id=%(st_id)i)
-  File >> Preferences >> Machine >> choose your machine from machin list >> status callback URL
+   <br>File >> Preferences >> Machine >> choose your machine from machine list >> status callback URL
 - set up hardware
 
   disk changer will operate after printing is complete; or control manually through http://pi's_IP:portnum/control
