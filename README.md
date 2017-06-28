@@ -2,7 +2,7 @@
 
 Flux disk changer is designed to enable FLUX Delta to print multiple objects without manually changing the magnetic printing disks.
 - It is composed of two mechanical parts, the disk loader and unloader.
-- It is controlled with raspberry pi, receiving request from FLUX Delta and gives command to Arduino+RAMP, which further controls the mechanical parts.
+- It is controlled with raspberry pi, receiving request from FLUX Delta and gives command to Arduino+RAMPS, which further controls the mechanical parts.
 
 
 ## What you need to do
